@@ -1,0 +1,180 @@
+build/temp.linux-x86_64-2.7/wpactrl.o: wpactrl.c \
+ ../python-lib/include/python2.6/Python.h \
+ ../python-lib/include/python2.6/patchlevel.h \
+ ../python-lib/include/python2.6/pyconfig.h \
+ ../python-lib/include/python2.6/pymacconfig.h \
+ ../python-lib/include/python2.6/pyport.h \
+ ../python-lib/include/python2.6/pymath.h \
+ ../python-lib/include/python2.6/pymem.h \
+ ../python-lib/include/python2.6/object.h \
+ ../python-lib/include/python2.6/objimpl.h \
+ ../python-lib/include/python2.6/pydebug.h \
+ ../python-lib/include/python2.6/unicodeobject.h \
+ ../python-lib/include/python2.6/intobject.h \
+ ../python-lib/include/python2.6/boolobject.h \
+ ../python-lib/include/python2.6/longobject.h \
+ ../python-lib/include/python2.6/floatobject.h \
+ ../python-lib/include/python2.6/complexobject.h \
+ ../python-lib/include/python2.6/rangeobject.h \
+ ../python-lib/include/python2.6/stringobject.h \
+ ../python-lib/include/python2.6/bufferobject.h \
+ ../python-lib/include/python2.6/bytesobject.h \
+ ../python-lib/include/python2.6/bytearrayobject.h \
+ ../python-lib/include/python2.6/tupleobject.h \
+ ../python-lib/include/python2.6/listobject.h \
+ ../python-lib/include/python2.6/dictobject.h \
+ ../python-lib/include/python2.6/enumobject.h \
+ ../python-lib/include/python2.6/setobject.h \
+ ../python-lib/include/python2.6/methodobject.h \
+ ../python-lib/include/python2.6/moduleobject.h \
+ ../python-lib/include/python2.6/funcobject.h \
+ ../python-lib/include/python2.6/classobject.h \
+ ../python-lib/include/python2.6/fileobject.h \
+ ../python-lib/include/python2.6/cobject.h \
+ ../python-lib/include/python2.6/traceback.h \
+ ../python-lib/include/python2.6/sliceobject.h \
+ ../python-lib/include/python2.6/cellobject.h \
+ ../python-lib/include/python2.6/iterobject.h \
+ ../python-lib/include/python2.6/genobject.h \
+ ../python-lib/include/python2.6/descrobject.h \
+ ../python-lib/include/python2.6/warnings.h \
+ ../python-lib/include/python2.6/weakrefobject.h \
+ ../python-lib/include/python2.6/codecs.h \
+ ../python-lib/include/python2.6/pyerrors.h \
+ ../python-lib/include/python2.6/pystate.h \
+ ../python-lib/include/python2.6/pyarena.h \
+ ../python-lib/include/python2.6/modsupport.h \
+ ../python-lib/include/python2.6/pythonrun.h \
+ ../python-lib/include/python2.6/ceval.h \
+ ../python-lib/include/python2.6/sysmodule.h \
+ ../python-lib/include/python2.6/intrcheck.h \
+ ../python-lib/include/python2.6/import.h \
+ ../python-lib/include/python2.6/abstract.h \
+ ../python-lib/include/python2.6/compile.h \
+ ../python-lib/include/python2.6/code.h \
+ ../python-lib/include/python2.6/eval.h \
+ ../python-lib/include/python2.6/pystrtod.h \
+ ../python-lib/include/python2.6/pystrcmp.h \
+ ../python-lib/include/python2.6/pyfpe.h \
+ ../python-lib/include/python2.6/structmember.h \
+ ../python-lib/include/python2.6/osdefs.h wpa_ctrl.h
+
+../python-lib/include/python2.6/Python.h:
+
+../python-lib/include/python2.6/patchlevel.h:
+
+../python-lib/include/python2.6/pyconfig.h:
+
+../python-lib/include/python2.6/pymacconfig.h:
+
+../python-lib/include/python2.6/pyport.h:
+
+../python-lib/include/python2.6/pymath.h:
+
+../python-lib/include/python2.6/pymem.h:
+
+../python-lib/include/python2.6/object.h:
+
+../python-lib/include/python2.6/objimpl.h:
+
+../python-lib/include/python2.6/pydebug.h:
+
+../python-lib/include/python2.6/unicodeobject.h:
+
+../python-lib/include/python2.6/intobject.h:
+
+../python-lib/include/python2.6/boolobject.h:
+
+../python-lib/include/python2.6/longobject.h:
+
+../python-lib/include/python2.6/floatobject.h:
+
+../python-lib/include/python2.6/complexobject.h:
+
+../python-lib/include/python2.6/rangeobject.h:
+
+../python-lib/include/python2.6/stringobject.h:
+
+../python-lib/include/python2.6/bufferobject.h:
+
+../python-lib/include/python2.6/bytesobject.h:
+
+../python-lib/include/python2.6/bytearrayobject.h:
+
+../python-lib/include/python2.6/tupleobject.h:
+
+../python-lib/include/python2.6/listobject.h:
+
+../python-lib/include/python2.6/dictobject.h:
+
+../python-lib/include/python2.6/enumobject.h:
+
+../python-lib/include/python2.6/setobject.h:
+
+../python-lib/include/python2.6/methodobject.h:
+
+../python-lib/include/python2.6/moduleobject.h:
+
+../python-lib/include/python2.6/funcobject.h:
+
+../python-lib/include/python2.6/classobject.h:
+
+../python-lib/include/python2.6/fileobject.h:
+
+../python-lib/include/python2.6/cobject.h:
+
+../python-lib/include/python2.6/traceback.h:
+
+../python-lib/include/python2.6/sliceobject.h:
+
+../python-lib/include/python2.6/cellobject.h:
+
+../python-lib/include/python2.6/iterobject.h:
+
+../python-lib/include/python2.6/genobject.h:
+
+../python-lib/include/python2.6/descrobject.h:
+
+../python-lib/include/python2.6/warnings.h:
+
+../python-lib/include/python2.6/weakrefobject.h:
+
+../python-lib/include/python2.6/codecs.h:
+
+../python-lib/include/python2.6/pyerrors.h:
+
+../python-lib/include/python2.6/pystate.h:
+
+../python-lib/include/python2.6/pyarena.h:
+
+../python-lib/include/python2.6/modsupport.h:
+
+../python-lib/include/python2.6/pythonrun.h:
+
+../python-lib/include/python2.6/ceval.h:
+
+../python-lib/include/python2.6/sysmodule.h:
+
+../python-lib/include/python2.6/intrcheck.h:
+
+../python-lib/include/python2.6/import.h:
+
+../python-lib/include/python2.6/abstract.h:
+
+../python-lib/include/python2.6/compile.h:
+
+../python-lib/include/python2.6/code.h:
+
+../python-lib/include/python2.6/eval.h:
+
+../python-lib/include/python2.6/pystrtod.h:
+
+../python-lib/include/python2.6/pystrcmp.h:
+
+../python-lib/include/python2.6/pyfpe.h:
+
+../python-lib/include/python2.6/structmember.h:
+
+../python-lib/include/python2.6/osdefs.h:
+
+wpa_ctrl.h:
