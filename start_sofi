@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Starting SO-Fi!"
+sudo gnome-terminal -e "So-Fi_c/hostapd/hostapd So-Fi_c/hostapd/hostapd.conf"&
+cd So-Fi/
+sudo python sofi_listener.py
+tail -f myapp.log
+#echo "Shutting down!!"
+#sudo killall hostapd
+#sudo killall python
