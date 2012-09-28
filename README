@@ -1,5 +1,80 @@
 SO-Fi (Secure on-demand Wi-Fi)
+------------------------------
 
-SO-Fi builds on the broadcast character of the IEEE 802.11 wireless medium to instantly achieve a complete discovery scope covering all devices in communication range. Realizing content discovery outside of a secure network association, SO-Fi also provides communication confidentiality, state-of-the-art 802.11 network security, DoS robustness, and user authentication.
 
+Description:
+------------
+
+SO-Fi builds on the broadcast character of the IEEE 802.11 wireless medium to
+instantly achieve a complete discovery scope covering all devices in
+communication range. Realizing content discovery outside of a secure network
+association, SO-Fi also provides communication confidentiality, state-of-the-art
+802.11 network security, DoS robustness, and user authentication.
+
+
+Repository:
+-----------
+
+The SO-Fi repository is structured in the following way:
+
+SO-Fi contains the python backend of the SO-Fi service.
+So-Fi_c contains hostapd 1.0 with the SO-Fi/pwifi changes applied to it.
+So-Fi_c/src/pwifi contains the "provision" Wi-Fi services, that deal with
+WiFi on demand provisioning.
+SO-Fi_legacy contains the Android Client Project.
+
+Building:
+---------
+
+hostapd:
+--------
+So-Fi_c and the containing hostapd can be compiled by going to So-Fi_c/hostapd
+and running make. For the required libs please see the build requirements of
+hostapd.
+
+run make in So-Fi_c/hostapd
+
+backend:
+--------
+The python backend requires cherrypy in order to serve the files via http.
+Cherrypy is not included but is installable via packagemanager or downloadable.
+
+Not included:
+ - dnsmasq (binary file) (place in SO-Fi directory)
+ - cherrypy (place in SO-Fi directory or install via packagemanager or pip)
+
+Included libs/programs:
+ - python-mom in SO-Fi/mom
+ - pywpactrl in SO-Fi/pywpactrl.
+ - h2py.py
+ - pbkdf2.py 
+
+The python backend needs some constants which are defined in So-Fi_c/src/pwifi
+these are provided via h2py.py.
+
+run build_setup.sh in SO-Fi/
+
+Usage:
+------
+
+Using the native client:
+------------------------
+cd SO-Fi
+python sofi_cmd.py
+help gives you a list of available commands.
+
+Using and starting a SO-Fi host:
+--------------------------------
+For your convenience there are two scripts:
+start_sofi.sh and stop_sofi.sh that start/stop the SO-Fi hostapd, dnsmasq and
+the python backend.
+
+SO-Fi per default does not serve any content!
+Adding content can be done via the sofi_db.py, there are examples on how to
+add files and directories to the database in the file.
+
+Android client:
+---------------
+The Android client project can be imported in eclipse and then build/run via
+eclipse given you have a working android build environment.
 
